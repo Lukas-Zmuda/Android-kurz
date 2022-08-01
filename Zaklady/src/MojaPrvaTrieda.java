@@ -1,8 +1,21 @@
 
 public class MojaPrvaTrieda {
 
+	/**
+	 * 
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		
+		//jednoriadkovy komentar
+		/*
+		 * toto je viacriadkovy
+		 * komentar
+		 */
+		
+		/**
+		 * 
+		 */
 		System.out.println("Lukas");
 		System.out.println("Elct");
 		System.out.println("AHoj Java");

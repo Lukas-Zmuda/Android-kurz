@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"<Unnamed>","c":"MojaPrvaTrieda","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"<Unnamed>","c":"MojaPrvaTrieda","l":"MojaPrvaTrieda()","u":"%3Cinit%3E()"}];updateSearchResults();
