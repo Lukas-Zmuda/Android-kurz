@@ -15,6 +15,14 @@ public class DatoveTypy {
 		int bInt = b;
 		b = (byte)bInt;
 		
+		int hex = 0xff;
+		int oct = 0123;
+		int bin = 0b10000000;
+		
+		
+		System.out.println("hex = " + hex);
+		System.out.println("oct = " + oct);
+		System.out.println("bin = " + bin);
 		
 		//desatinne cisla
 		double dd = 12.45;
@@ -22,15 +30,20 @@ public class DatoveTypy {
 		float ff = 1.45f;
 		System.out.println((int)dd);
 		
+		//znaky
 		char zavinac = '@';
 		char znak = '\u0123';
 		zavinac = 64;
 		System.out.println(znak);
 		
+		//log. hodnoty
+		boolean prsi = true; //false
+		
 		//retazce
 		String meno = "Lukas";
 		System.out.println(meno);
 		
+		int den1 = 12;
 		
 
 	}
