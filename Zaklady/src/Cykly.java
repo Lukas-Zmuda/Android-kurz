@@ -42,6 +42,23 @@ public class Cykly {
 			k--;
 		}while(k > 0);
 		System.out.println();
+		
+		//break, continue
+		k = 1;
+		while(true) {
+			if(k == 5) {
+				System.out.print("pat, ");
+				k++;
+				continue;
+			}
+			System.out.print(k + ", ");
+			k++;
+			if(k == 11) {
+				break;
+			}
+		}
+		
+		System.out.println();
 
 		System.out.println("Program pokracuje dalej ...");
 	}
