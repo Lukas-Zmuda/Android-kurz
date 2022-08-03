@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collection;
 
 public class ArrayListDemo {
 
@@ -34,6 +35,11 @@ public class ArrayListDemo {
 		for(String stat: statyEu) {
 			System.out.println(stat);
 		}
+		
+		ArrayList<Double> cisla = new ArrayList<>();
+		
+		cisla.add(12.45);
+		
 		
 
 	}
