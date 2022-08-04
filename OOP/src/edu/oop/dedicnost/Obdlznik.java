@@ -36,7 +36,5 @@ public class Obdlznik extends Utvar{
 	@Override
 	public String toString() {		
 		return "Obdlznik d = " + this.dlzka + ", s = " + this.sirka;
-	}	
-	
-	
+	}		
 }

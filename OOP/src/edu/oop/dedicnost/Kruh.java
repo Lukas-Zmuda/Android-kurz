@@ -24,15 +24,8 @@ public class Kruh extends Utvar {
 	}
 
 	@Override
-	public boolean equals(Object obj) {
-		
-		Kruh k = (Kruh) obj;
-		
+	public boolean equals(Object obj) {		
+		Kruh k = (Kruh) obj;		
 		return (this.getX() == k.getX()) && (this.getY() == k.getY()) && (this.getPolomer() == k.getPolomer());
 	}
-	
-	
-	
-	
-
 }
