@@ -39,6 +39,18 @@ public class Tester {
 		Osoba os2 = new Osoba("Maja", "Vcela");
 		os2.info();
 		
+		System.out.println("-------------");
+		Ucet u = new Ucet("123456789", 500);
+		u.info();
+		u.vklad(-100);
+		u.info();
+		u.vyber(2000);
+		
+		//u.zostatok = -10000;
+		u.info();
+		
+		
+		
 		
 		
 
