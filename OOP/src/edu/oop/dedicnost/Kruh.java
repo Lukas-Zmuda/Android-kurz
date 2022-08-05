@@ -28,4 +28,11 @@ public class Kruh extends Utvar {
 		Kruh k = (Kruh) obj;		
 		return (this.getX() == k.getX()) && (this.getY() == k.getY()) && (this.getPolomer() == k.getPolomer());
 	}
+
+	@Override
+	public void posun(int x, int y) {
+		this.setX(this.getX() + x);
+		this.setY(this.getY() + y);
+		
+	}
 }

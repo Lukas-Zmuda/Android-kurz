@@ -1,6 +1,6 @@
 package edu.oop.dedicnost;
 
-public class Utvar {
+public abstract class Utvar {
 	
 	private int x, y;
 	private String farba;
@@ -12,6 +12,8 @@ public class Utvar {
 		this.farba = farba;
 	}
 
+	//abstraktna metoda
+	public abstract void posun(int x, int y);
 	
 	public void nakresli() {
 		System.out.println("Kreslim utvar na suradnici [" + this.getX() + ", " + 
