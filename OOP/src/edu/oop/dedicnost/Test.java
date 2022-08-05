@@ -49,6 +49,9 @@ public class Test {
 		
 		//ut.nakresli();
 		
+		System.out.println(Kruh.obsah(12));
+		
+		System.out.println();
 
 	}
 

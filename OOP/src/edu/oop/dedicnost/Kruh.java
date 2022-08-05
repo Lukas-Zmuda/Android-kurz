@@ -71,4 +71,8 @@ public final class Kruh extends Utvar implements UtvarVypocty, Pohyb{
 		this.setX(this.getX() + x);
 		
 	}
+	
+	public static double obsah(double polomer) {
+		return Math.PI * polomer * polomer;
+	}
 }
