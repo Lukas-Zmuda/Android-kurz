@@ -1,6 +1,6 @@
 package edu.oop.dedicnost;
 
-public class Obdlznik extends Utvar{
+public class Obdlznik extends Utvar implements UtvarVypocty{
 	
 	private int dlzka, sirka;
 		
@@ -42,6 +42,18 @@ public class Obdlznik extends Utvar{
 	public void posun(int x, int y) {
 		this.setX(this.getX() + x);
 		this.setY(this.getY() + y);
+		
+	}
+
+	@Override
+	public void obvod() {
+		System.out.println("o = " + (2 * (this.dlzka + this.sirka)));
+		
+	}
+
+	@Override
+	public void obsah() {
+		System.out.println("S = " + (this.dlzka * this.sirka));
 		
 	}		
 }

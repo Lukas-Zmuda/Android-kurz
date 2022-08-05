@@ -1,6 +1,6 @@
 package edu.oop.dedicnost;
 
-public class Kruh extends Utvar {
+public final class Kruh extends Utvar implements UtvarVypocty, Pohyb{
 	
 	private int polomer;
 	
@@ -33,6 +33,42 @@ public class Kruh extends Utvar {
 	public void posun(int x, int y) {
 		this.setX(this.getX() + x);
 		this.setY(this.getY() + y);
+		
+	}
+
+	@Override
+	public void obvod() {
+		System.out.println("o = " + 2 * Math.PI * this.polomer);
+		
+	}
+
+	@Override
+	public void obsah() {
+		System.out.println("S = " + Math.PI * this.polomer * this.polomer);
+		
+	}
+
+	@Override
+	public void hore(int y) {
+		this.setY(this.getY() - y);
+		
+	}
+
+	@Override
+	public void dole(int y) {
+		this.setY(this.getY() + y);
+		
+	}
+
+	@Override
+	public void dolava(int x) {
+		this.setX(this.getX() - x);
+		
+	}
+
+	@Override
+	public void doprava(int x) {
+		this.setX(this.getX() + x);
 		
 	}
 }
