@@ -23,9 +23,11 @@ public class Vynimky {
 			System.out.println("Nespravny vstup!");
 		}catch(VelkeCisloException ve) {
 			System.out.println(ve.getMessage());
-			System.exit(0);
+			//System.exit(0);
 		}catch(Exception ee) {
 			System.out.println("Nastala nejaka chyba!");
+		}finally {
+			System.out.println("Toto sa vykona stale");
 		}
 		
 		System.out.println("Program pokracuje dalej ...");
